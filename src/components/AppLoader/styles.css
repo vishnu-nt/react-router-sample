@@ -1,0 +1,12 @@
+.app-loader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333e50;
+}
+
+.app-loader .progress-bar {
+  background-color: #3ecccb;
+}

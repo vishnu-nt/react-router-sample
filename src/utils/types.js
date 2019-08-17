@@ -1,0 +1,27 @@
+import PropTypes from 'prop-types'
+
+export const ResponsePropType = {
+  aspiration: PropTypes.string.isRequired,
+  body_style: PropTypes.string.isRequired,
+  city_mpg: PropTypes.number.isRequired,
+  compression_ratio: PropTypes.number.isRequired,
+  curb_weight: PropTypes.number.isRequired,
+  drive_wheels: PropTypes.string.isRequired,
+  engine_location: PropTypes.string.isRequired,
+  engine_size: PropTypes.number.isRequired,
+  engine_type: PropTypes.string.isRequired,
+  fuel_system: PropTypes.string.isRequired,
+  fuel_type: PropTypes.string.isRequired,
+  height: PropTypes.number.isRequired,
+  highway_mpg: PropTypes.number.isRequired,
+  horsepower: PropTypes.number.isRequired,
+  length: PropTypes.number.isRequired,
+  logo: PropTypes.string.isRequired,
+  make: PropTypes.string.isRequired,
+  num_of_cylinders: PropTypes.string.isRequired,
+  num_of_doors: PropTypes.string.isRequired,
+  peak_rpm: PropTypes.number.isRequired,
+  price: PropTypes.number.isRequired,
+  wheel_base: PropTypes.number.isRequired,
+  width: PropTypes.number.isRequired,
+};
